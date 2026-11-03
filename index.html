@@ -1,1 +1,89 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>Duo Stock Watch</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #101827;
+      color: white;
+      font-family: -apple-system, Arial, sans-serif;
+      padding: 25px 18px;
+    }
+    .container { max-width: 480px; margin: auto; }
+    h1 { margin-bottom: 5px; }
+    .subtitle { color: #aebbd0; }
+    .card {
+      background: #1e293b;
+      border-radius: 16px;
+      padding: 20px;
+      margin-top: 18px;
+    }
+    .status { color: #fbbf24; }
+    a {
+      display: block;
+      text-align: center;
+      background: #2563eb;
+      color: white;
+      padding: 14px;
+      border-radius: 10px;
+      margin-top: 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .note { color: #aebbd0; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📱 Duo Stock Watch</h1>
+    <p class="subtitle">Your personal iPhone inventory assistant</p>
+
+    <div class="card">
+      <h2>Your Preferences</h2>
+      <p>Preferred: 256 GB</p>
+      <p>Also accepted: 512 GB and 1 TB</p>
+      <p>Color: Any</p>
+      <p>Carrier: AT&T</p>
+      <p>Location: Woodbridge, VA</p>
+    </div>
+
+    <div class="card">
+      <h2>Apple Store</h2>
+      <p class="status">Inventory not yet connected</p>
+      <a href="https://www.apple.com/shop/buy-iphone"
+         target="_blank" rel="noopener">
+        Open Apple Store
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>Best Buy</h2>
+      <p class="status">Inventory not yet connected</p>
+      <a href="https://www.bestbuy.com"
+         target="_blank" rel="noopener">
+        Open Best Buy
+      </a>
+    </div>
+
+    <div class="card">
+      <h2>AT&T</h2>
+      <p class="status">Inventory not yet connected</p>
+      <a href="https://www.att.com/buy/phones/"
+         target="_blank" rel="noopener">
+        Open AT&T
+      </a>
+    </div>
+
+    <p class="note">
+      Automatic inventory checks and alerts
+      will be added in a future step.
+    </p>
+  </div>
+</body>
+</html>
